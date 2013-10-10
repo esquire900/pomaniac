@@ -1,0 +1,207 @@
+/**
+ * Functions
+ */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+@import url("http://fonts.googleapis.com/css?family=Ubuntu");
+.btn-mainpage {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+}
+.btn-mainpage a {
+  color: #fff;
+  text-decoration: none;
+}
+@font-face {
+  font-family: multicolor;
+  src: url("multicolore.otf");
+}
+.container {
+  width: 850px;
+}
+.clockje {
+  margin-left: 17px;
+}
+body {
+  background-color: #f0f2f5;
+  font-family: 'Open Sans', sans-serif;
+}
+body h1 {
+  font-family: 'Open Sans', sans-serif;
+}
+.logo {
+  font-family: multicolor;
+  color: #808080;
+}
+.logo span {
+  color: #ff6000;
+}
+.list-item {
+  height: 60px;
+  padding: 10px;
+  width: 560px;
+  background-color: #fff;
+  border: 1px solid #c3c5c7;
+  border-left: 0px;
+  border-right: 0px;
+  margin-bottom: 5px;
+  color: #000;
+}
+.list-item #desc {
+  font-size: 1.1em;
+  width: 280px;
+  float: left;
+  margin-left: 22px;
+  padding-left: 8px;
+  padding-right: 10px;
+  height: 40px;
+}
+.list-item #count {
+  height: 60px;
+  width: 90px;
+  float: left;
+  font-size: 1.5em;
+  padding-left: 10px;
+}
+.list-item #delete {
+  margin-left: 5px;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  background-color: #dadbde;
+}
+ul {
+  list-style-type: none;
+  margin-left: -50px;
+}
+.workingTask {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 30px;
+}
+.buttons-container {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.buttons-container #start {
+  width: 150px;
+}
+.buttons-container #break {
+  width: 150px;
+}
+.buttons-container #stop {
+  width: 150px;
+}
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.form-control {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.btn-work {
+  width: 90px;
+  height: 35px;
+  margin-left: 10px;
+  background-color: #4daade;
+  color: #fff;
+}
+.col-05 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  width: 2%;
+}
+.col-05 button {
+  height: 32px;
+  width: 32px;
+  margin-top: 3px;
+}
+#total {
+  font-size: 30px;
+  visibility: hidden;
+}
+.flip-clock-label {
+  visibility: hidden;
+}
+legend {
+  color: #fff;
+}
+#login-form {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+#login-form .btn {
+  margin: 20px;
+  margin-left: 0px;
+  width: 100%;
+}
+#login-form input {
+  margin-top: 20px;
+  height: 50px;
+  font-size: 1.6em;
+}
+#registration-form {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+#registration-form .btn {
+  margin: 20px;
+  margin-left: 0px;
+  width: 100%;
+}
+#registration-form input {
+  margin-top: 20px;
+  height: 50px;
+  width: 100%;
+  font-size: 1.6em;
+}
+.navbar {
+  background-color: #4daade;
+}
+.navbar .navbar-brand {
+  color: #fff;
+}
+.navbar li a {
+  color: #fff;
+}
+#footer {
+  bottom: 0;
+  position: fixed;
+  background-color: #dadbde;
+  height: 40px;
+  width: 100%;
+  border-top: 1px solid #dadbde;
+}
+.center {
+  float: none;
+  margin: 0 auto;
+}
+#contact-form input {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+#contact-form .name {
+  width: 48%;
+  float: left;
+}
+#contact-form .email {
+  width: 48%;
+  margin-bottom: 0px;
+  float: right;
+}
